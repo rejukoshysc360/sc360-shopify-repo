@@ -1,0 +1,6 @@
+[environments.development]
+store = "sc360-theme-dev.myshopify.com/"
+ignore_files = [
+    "config/settings_data.json",
+    "config/locales/*.json"
+]
