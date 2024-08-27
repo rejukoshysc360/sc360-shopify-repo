@@ -1,0 +1,44 @@
+{{ section.settings.title }}
+
+{% for block in section.blocks %}
+  {% if block.type == "promotion_item_sc360" %}
+    {% if block.settings.image %}
+      {{ block.settings.image | image_url: width: 500 | image_tag }}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+
+
+
+ {% schema %}
+ {
+   "name": "Promotion Group - SC360",
+   "tag": "section",
+   "settings": [
+     {
+       "type": "text",
+       "label": "Title",
+       "id": "title"
+     }
+   ],
+   "blocks": [
+     {
+       "type": "promotion_item_sc360",
+       "name": "promotion",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+   ],
+   "presets": [
+     {
+       "name": "Promotion Group - SC360"
+     }
+   ]
+ }
+ {% endschema %}
