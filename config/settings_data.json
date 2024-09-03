@@ -181,6 +181,12 @@
         "settings": {
           "override_url": ""
         }
+      },
+      "8218531531362863771": {
+        "type": "shopify:\/\/apps\/kite-free-gift-discounts\/blocks\/app-embed\/2c7302c4-455d-4078-a829-48563ba26089",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
