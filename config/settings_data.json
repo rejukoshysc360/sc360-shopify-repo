@@ -153,12 +153,6 @@
 
     ],
     "blocks": {
-      "8218531531362863771": {
-        "type": "shopify:\/\/apps\/kite-free-gift-discounts\/blocks\/app-embed\/2c7302c4-455d-4078-a829-48563ba26089",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "17151115064775110295": {
         "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
         "disabled": false,
@@ -175,8 +169,8 @@
           "cards_border_color": "rgba(0,0,0,0)"
         }
       },
-      "10910696115237310528": {
-        "type": "shopify:\/\/apps\/slide-cart-drawer-cart-upsell\/blocks\/slide-cart-app-embed\/06f96c51-92d4-4ccf-8798-f65ef7359208",
+      "6065014864672580889": {
+        "type": "shopify:\/\/apps\/slide-cart-by-amp\/blocks\/app-embed\/0a410b8d-7dc4-4f2d-b4e8-c12d34fd2255",
         "disabled": false,
         "settings": {
         }
