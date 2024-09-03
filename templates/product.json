@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -39,6 +48,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "upsell_by_amp_embedded_product_CwJKQx": {
+          "type": "shopify:\/\/apps\/upsell-by-amp\/blocks\/embedded-product\/04a7ddf7-3a4c-4228-9a44-33ba2380f058",
+          "settings": {
+            "override_url": ""
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -59,6 +74,7 @@
         "quantity_selector",
         "price",
         "buy_buttons",
+        "upsell_by_amp_embedded_product_CwJKQx",
         "description",
         "share"
       ],
