@@ -1,0 +1,28 @@
+<div class="sc-cls">
+    {% if section.settings.title %}
+        {% assign snippet_name = section.settings.title %}
+        {% include  snippet_name %}
+    {% else %}
+        Blank
+    {% endif %}
+</div>
+
+{% schema %}
+{
+    "name": "Content Asset",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Snippet Id"
+        }  
+    ],
+    "presets": [
+        {
+            "name": "Content Asset"
+        }
+    ]
+}
+{% endschema %}
