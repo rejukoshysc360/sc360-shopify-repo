@@ -9,6 +9,12 @@
 */
 {
   "sections": {
+    "content_asset": {
+      "type": "sc_content_asset",
+      "settings": {
+        "title": "sc_content"
+      }
+    },
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
       "type": "image-banner",
       "blocks": {
@@ -58,11 +64,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "content_asset": {
-      "type": "sc_content_asset",
-      "settings": {
       }
     },
     "featured_collection": {
