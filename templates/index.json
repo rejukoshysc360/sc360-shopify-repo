@@ -11,6 +11,9 @@
   "sections": {
     "content_asset": {
       "type": "sc_content_asset",
+      "custom_css": [
+        ".sc-cls {font-size : 32px}"
+      ],
       "settings": {
         "title": "sc_content"
       }
