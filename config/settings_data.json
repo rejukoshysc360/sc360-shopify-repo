@@ -169,21 +169,21 @@
           "cards_border_color": "rgba(0,0,0,0)"
         }
       },
-      "6065014864672580889": {
-        "type": "shopify:\/\/apps\/slide-cart-by-amp\/blocks\/app-embed\/0a410b8d-7dc4-4f2d-b4e8-c12d34fd2255",
-        "disabled": false,
+      "8218531531362863771": {
+        "type": "shopify:\/\/apps\/kite-free-gift-discounts\/blocks\/app-embed\/2c7302c4-455d-4078-a829-48563ba26089",
+        "disabled": true,
         "settings": {
         }
       },
       "1206128725646818650": {
         "type": "shopify:\/\/apps\/upsell-by-amp\/blocks\/app-embed\/04a7ddf7-3a4c-4228-9a44-33ba2380f058",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "override_url": ""
         }
       },
-      "8218531531362863771": {
-        "type": "shopify:\/\/apps\/kite-free-gift-discounts\/blocks\/app-embed\/2c7302c4-455d-4078-a829-48563ba26089",
+      "6065014864672580889": {
+        "type": "shopify:\/\/apps\/slide-cart-by-amp\/blocks\/app-embed\/0a410b8d-7dc4-4f2d-b4e8-c12d34fd2255",
         "disabled": true,
         "settings": {
         }
