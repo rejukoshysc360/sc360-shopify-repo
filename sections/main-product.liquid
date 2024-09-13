@@ -111,6 +111,8 @@
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 {%- form 'product', product, data-productid: product.id, id: product_form_installment_id, class: 'installment caption-large' -%}
                   <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+                   <input type="hidden" name="properties[key]" value="Reju">
+                  
                   {{ form | payment_terms }}
                   {% render 'selling-plans' %}
                 {%- endform -%}
